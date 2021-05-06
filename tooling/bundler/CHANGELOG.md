@@ -1,5 +1,18 @@
 # Changelog
 
+## \[1.0.0-beta-rc.2]
+
+- Use `armhf` as Debian package architecture on `arm` CPUs.
+  - [894643c](https://www.github.com/tauri-apps/tauri/commit/894643cdcd7446f63c4a0ab157be3cb8c242952a) feat(bundler): use `armhf` as Debian package architecture on arm CPUs ([#1663](https://www.github.com/tauri-apps/tauri/pull/1663)) on 2021-04-30
+- Adds basic library documentation.
+  - [fcee4c2](https://www.github.com/tauri-apps/tauri/commit/fcee4c25fc2e83a587e096b26d9f7c374c3db057) refactor(bundler): finish initial documentation, reorganize modules ([#1662](https://www.github.com/tauri-apps/tauri/pull/1662)) on 2021-04-30
+- The `PackageTypes` enum now includes all options, including Windows packages.
+  - [fcee4c2](https://www.github.com/tauri-apps/tauri/commit/fcee4c25fc2e83a587e096b26d9f7c374c3db057) refactor(bundler): finish initial documentation, reorganize modules ([#1662](https://www.github.com/tauri-apps/tauri/pull/1662)) on 2021-04-30
+- Adds `icon_path` field to the `WindowsSettings` struct (defaults to `icons/icon.ico`).
+  - [314936e](https://www.github.com/tauri-apps/tauri/commit/314936efbeb3ecaece244da5a1a4a59341d4f76f) feat(bundler): add icon path config instead of enforcing icons/icon.ico ([#1698](https://www.github.com/tauri-apps/tauri/pull/1698)) on 2021-05-03
+- Added the \`#\[non_exhaustive] attribute where appropriate.
+  - [e087f0f](https://www.github.com/tauri-apps/tauri/commit/e087f0f9374355ac4b4a48f94727ef8b26b1c4cf) feat: add `#[non_exhaustive]` attribute ([#1725](https://www.github.com/tauri-apps/tauri/pull/1725)) on 2021-05-05
+
 ## \[1.0.0-beta-rc.1]
 
 - Find best available icon for AppImage, follow `.DirIcon` spec.

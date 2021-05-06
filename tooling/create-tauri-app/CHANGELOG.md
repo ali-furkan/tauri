@@ -1,5 +1,14 @@
 # Changelog
 
+## \[1.0.0-beta-rc.5]
+
+- Explicitly install deps after a vite recipe.
+  - [397b7af](https://www.github.com/tauri-apps/tauri/commit/397b7af395a213bf826aa52398467b7b3352b666) chore: CTA defaults in CI mode ([#1671](https://www.github.com/tauri-apps/tauri/pull/1671)) on 2021-05-05
+- Shift everything out of the `bin` and into `.ts` so we can apply Typescript types.
+  - [c3acbd6](https://www.github.com/tauri-apps/tauri/commit/c3acbd68ec169188c782cbaf7d100d80b3a4f39a) chore: shift CTA from bin to .ts ([#1651](https://www.github.com/tauri-apps/tauri/pull/1651)) on 2021-04-29
+- We setup an e2e type test suite for CTA. It is mostly an internal change, but should help with stability moving forward.
+  - [af6411d](https://www.github.com/tauri-apps/tauri/commit/af6411d5f8c9fd1c3d9b4f3c2d79e8f1bd0efbf2) feat: setup testing for CTA ([#1615](https://www.github.com/tauri-apps/tauri/pull/1615)) on 2021-04-27
+
 ## \[1.0.0-beta-rc.4]
 
 - Manually set `tauri` script instead of using `npm set-script` for compatabilty with older npm versions
